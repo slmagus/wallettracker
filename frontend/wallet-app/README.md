@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ## Docker
-    `podman run -p 3000:3000 --mount type=bind,src=wallet-app,dst=wallet-app node`
-
+    `podman run -p 3000:3000 --mount type=bind,src=wallet-app,dst=/code/wallet-app node`
+    `cd code/wallet-app`
 ### `npm start`
 
 Runs the app in the development mode.\
